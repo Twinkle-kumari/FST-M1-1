@@ -1,4 +1,4 @@
-package Activities;
+package Programs;
 
 // ----------------------------------Inheritance-------------------------------------------
 
@@ -7,12 +7,10 @@ class Car {
 		
   //Parent class Members (Variables)
 	
-  public String Model = "Fiesta";
-   public String Colour = "Red";
-   public String Transmission = "Automatic";
-   public int Price = 1000000;
-
-
+   String Model = "Fiesta";
+   String Colour = "Red";
+   String Transmission = "Automatic";
+   int Price = 1000000;
 
      
   //Parent class Methods
@@ -34,7 +32,16 @@ public class Ford extends Car{
   System.out.println("The make of Car is " +Make);
   }
   
-  
+  public static void main(String args[]) {
+      //Usage of parent and child properties
+	  
+	  Ford newcar = new Ford();    
+	  
+	  newcar.Model= "Ecosport";
+     
+           newcar.Specification();
+           spec();
+  }
 }
 
 
