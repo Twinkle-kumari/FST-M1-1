@@ -11,11 +11,12 @@ public class Activity10_1 {
         WebDriver driver = new FirefoxDriver();
         Actions actions = new Actions(driver);
 
-       
+        //Open browser
         driver.get("https://www.training-support.net/selenium/input-events");
-        
+        //Find the cude
         WebElement cube = driver.findElement(By.id("wrapD3Cube"));
 
+        //Left click
         actions.click(cube);
         WebElement cubeVal = driver.findElement(By.className("active"));
         System.out.println("Left Click: " + cubeVal.getText());
