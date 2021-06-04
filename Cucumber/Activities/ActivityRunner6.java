@@ -12,7 +12,6 @@ import io.cucumber.junit.CucumberOptions;
     plugin = { "pretty", "html:target/cucumber-reports/reports" },
     monochrome = true
 )
-
-public class ActivitiesRunner {
+public class ActivityRunner6 {
     //empty
 }

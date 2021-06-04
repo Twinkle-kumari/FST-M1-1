@@ -8,11 +8,9 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
     features = "Features",
     glue = {"stepDefinations"},
-    tags = "@activity1_1",
-    plugin = { "pretty", "html:target/cucumber-reports/reports" },
-    monochrome = true
+    tags = "@activity2"
 )
 
-public class ActivitiesRunner {
+public class Activitiesrunner2 {
     //empty
 }
